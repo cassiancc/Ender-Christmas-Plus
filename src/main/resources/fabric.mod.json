@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "ender_christmas_plus",
+  "version": "${version}",
+  "name": "Ender Christmas Plus",
+  "description": "Let Ender Chests have a Christmas texture too - a port of Ender Christmas to modern versions.",
+  "authors": [
+    "cassiancc"
+  ],
+  "contributors": [
+    "tropheusj",
+    "ZenithKnight"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/ender-christmas+",
+    "sources": "https://github.com/cassiancc/Ender-Christmas-Plus",
+    "issues": "https://github.com/cassiancc/Ender-Christmas-Plus/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/ender_christmas/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cc.cassian.ender_christmas.fabric.EnderChristmasFabric"
+    ]
+  },
+  "mixins": [
+    "ender_christmas.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.2",
+    "minecraft": ">26",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

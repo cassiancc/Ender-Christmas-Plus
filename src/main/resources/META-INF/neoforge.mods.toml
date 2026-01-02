@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "ender_christmas_plus"
+version = "${version}"
+displayName = "Ender Christmas Plus"
+authors = "cassiancc"
+description = '''
+Let Ender Chests have a Christmas texture too - a port of Ender Christmas to modern versions.
+'''
+logoFile = "assets/ender_christmas/icon.png"
+issueTrackerURL = "https://github.com/cassiancc/Ender-Christmas-Plus/issues"
+displayURL="https://modrinth.com/mod/ender-christmas+"
+modURL="https://modrinth.com/mod/ender-christmas+"
+
+[[dependencies.ender_christmas_plus]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.0,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.ender_christmas_plus]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26,)"
+ordering = "NONE"
+side = "CLIENT"
+
+
+[[mixins]]
+config = "ender_christmas.mixins.json"
