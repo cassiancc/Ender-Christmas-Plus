@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.github.tropheusj.ender_christmas.mixin",
+  "package": "cc.cassian.ender_christmas.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
     "SheetsMixin"

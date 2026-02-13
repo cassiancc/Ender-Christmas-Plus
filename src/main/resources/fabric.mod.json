@@ -1,32 +1,40 @@
 {
   "schemaVersion": 1,
-  "id": "ender_christmas",
+  "id": "ender_christmas_plus",
   "version": "${version}",
-  "name": "Ender Christmas",
-  "description": "Retextures Ender Chests to have a Christmas texture, like Chests do.",
+  "name": "Ender Christmas Plus",
+  "description": "Let Ender Chests have a Christmas texture too - a port of Ender Christmas to Architectury.",
   "authors": [
-    "Tropheus Jay",
-    "Cassian Godsted",
-    {
-      "name": "ZenithKnight",
-      "contact": {
-        "homepage": "https://github.com/ZenithRogue"
-      }
-    }
+    "cassiancc"
+  ],
+  "contributors": [
+    "tropheusj",
+    "ZenithKnight"
   ],
   "contact": {
-    "sources": "https://github.com/TropheusJ/Ender-Christmas"
+    "homepage": "https://modrinth.com/mod/ender-christmas+",
+    "sources": "https://github.com/cassiancc/Ender-Christmas-Plus",
+    "issues": "https://github.com/cassiancc/Ender-Christmas-Plus/issues"
   },
   "license": "MIT",
   "icon": "assets/ender_christmas/icon.png",
   "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cc.cassian.ender_christmas.EnderChristmas"
+    ]
+  },
   "mixins": [
     "ender_christmas.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.12",
-    "fabric": ">=0.46.2",
-    "minecraft": ">=1.19.3",
-    "java": ">=17"
+    "fabricloader": ">=0.16.2",
+    "minecraft": "~1.20",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "mcqoy": "*",
+    "modmenu": "*"
   }
 }
