@@ -2,7 +2,7 @@ package cc.cassian.ender_christmas.fabric;
 
 //? fabric {
 
-/*import cc.cassian.ender_christmas.EnderChristmas;
+import cc.cassian.ender_christmas.EnderChristmas;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.resource.v1.ResourceLoader;
 import net.fabricmc.fabric.api.resource.v1.pack.PackActivationType;
@@ -22,4 +22,4 @@ public final class EnderChristmasFabric implements ClientModInitializer {
     }
 
 }
-*///?}
+//?}

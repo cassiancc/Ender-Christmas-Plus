@@ -1,7 +1,7 @@
 package cc.cassian.ender_christmas.neoforge;
 
 //? neoforge {
-import cc.cassian.ender_christmas.Platform;
+/*import cc.cassian.ender_christmas.Platform;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.fml.loading.FMLPaths;
@@ -31,4 +31,4 @@ public class NeoForgePlatformImpl implements Platform {
     }
 
 }
-//?}
+*///?}

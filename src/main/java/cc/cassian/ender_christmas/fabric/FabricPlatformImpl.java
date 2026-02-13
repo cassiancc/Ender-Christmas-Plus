@@ -1,7 +1,7 @@
 package cc.cassian.ender_christmas.fabric;
 
 //? fabric {
-/*import cc.cassian.ender_christmas.Platform;
+import cc.cassian.ender_christmas.Platform;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;
@@ -29,4 +29,4 @@ public class FabricPlatformImpl implements Platform {
     }
 
 }
-*///?}
+//?}

@@ -1,7 +1,7 @@
 package cc.cassian.ender_christmas.neoforge;
 
 //? neoforge {
-import cc.cassian.ender_christmas.EnderChristmas;
+/*import cc.cassian.ender_christmas.EnderChristmas;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.packs.PackType;
@@ -27,4 +27,4 @@ public class EnderChristmasNeoForge {
     }
 
 }
-//?}
+*///?}
